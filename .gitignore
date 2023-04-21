@@ -1,4 +1,6 @@
 # exclude everything except directory foo/bar
-.terraform
-.terrafor.lock*
-*terraform-provider*
+/.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
