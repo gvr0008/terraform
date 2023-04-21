@@ -1,5 +1,6 @@
 # exclude everything except directory foo/bar
 /.terraform/
+.terraform/*
 
 # .tfstate files
 *.tfstate
